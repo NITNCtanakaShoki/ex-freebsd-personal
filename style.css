@@ -1,0 +1,57 @@
+@charset "UTF-8";
+html, body {
+    margin: 0;
+}
+
+#app {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(39, 38, 38);
+    position: relative;
+    overflow: hidden;
+}
+#app:before {
+    content: "";
+    display: block;
+    width: 140px;
+    height: 300vh;
+    position: absolute;
+    top: 0;
+    left: 1200px;
+    background-color: rgb(65, 65, 65);
+    transform-origin: top right;
+    transform: rotate(30deg);
+}
+#app:after {
+    content: "";
+    display: block;
+    width: 100vw;
+    height: 300vh;
+    position: absolute;
+    top: 0;
+    left: 1200px;
+    background-color: rgb(128, 127, 127);
+    transform-origin: top left;
+    transform: rotate(30deg) translate(110px, -100vh);
+}
+
+.view {
+    margin: 54px;
+    color: white;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: lighter;
+    font-size: 23px;
+}
+
+h1 {
+    color: white;
+    font-size: 54px;
+}
+
+h2 {
+    color: white;
+    font-size: 48px;
+}
+
+
+/*# sourceMappingURL=style.css.map */
