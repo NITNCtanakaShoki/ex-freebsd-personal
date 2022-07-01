@@ -21,6 +21,7 @@ html, body {
     background-color: rgb(65, 65, 65);
     transform-origin: top right;
     transform: rotate(30deg);
+    z-index: -1;
 }
 #app:after {
     content: "";
@@ -33,6 +34,7 @@ html, body {
     background-color: rgb(128, 127, 127);
     transform-origin: top left;
     transform: rotate(30deg) translate(110px, -100vh);
+    z-index: -1;
 }
 
 .view {
@@ -41,6 +43,7 @@ html, body {
     font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
     font-weight: lighter;
     font-size: 23px;
+    z-index: 1;
 }
 
 h1 {
