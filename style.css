@@ -9,6 +9,7 @@ html, body {
     background-color: rgb(39, 38, 38);
     position: relative;
     overflow: hidden;
+    z-index: -2;
 }
 #app:before {
     content: "";
