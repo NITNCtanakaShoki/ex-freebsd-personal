@@ -2,6 +2,9 @@
 Deny from all
 </Files>
 AuthType Basic
-AuthName Realm
 AuthUserFile /home/tanaka/public_html/basic
+AuthName "Please enter your ID and password"
+Order deny,allow
+<Files himitsu.php>
 Require valid-user
+</Files>
