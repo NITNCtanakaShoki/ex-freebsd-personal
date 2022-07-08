@@ -1,4 +1,4 @@
-AuthUserFile /home/tanaka/passwords/.basic
-AuthName "Input ID and Password."
 AuthType Basic
+AuthName Realm
+AuthUserFile /home/tanaka/passwords/.basic
 Require valid-user
