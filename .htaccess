@@ -1,4 +1,10 @@
-AuthType Basic
-AuthName Realm
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
 AuthUserFile /home/tanaka/passwords/.basic
+AuthName "Input ID and Password."
+AuthType Basic
+order deny,allow
+<Files himitsu.html>
 require valid-user
+</Files>
