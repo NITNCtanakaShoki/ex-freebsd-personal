@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName Realm
-AuthUserFile /home/tanaka/passwords/basic
+AuthUserFile /home/tanaka/public_html/basic
 Require valid-user
