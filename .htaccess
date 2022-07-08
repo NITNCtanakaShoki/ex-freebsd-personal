@@ -1,3 +1,6 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+Deny from all
+</Files>
 AuthType Basic
 AuthName Realm
 AuthUserFile /home/tanaka/public_html/basic
