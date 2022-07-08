@@ -2,7 +2,7 @@
 Deny from all
 </Files>
 AuthType Basic
-AuthUserFile /home/tanaka/public_html/basic
+AuthUserFile /home/tanaka/public_html/.basic
 AuthName "Please enter your ID and password"
 Order deny,allow
 <Files himitsu.php>
