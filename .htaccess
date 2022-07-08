@@ -5,6 +5,6 @@ AuthType Basic
 AuthUserFile /usr/home/tanaka/passwords/.basic
 AuthName "Please enter your ID and password"
 Order deny,allow
-<Files himitsu.php>
+<Files himitsu.html>
 Require valid-user
 </Files>
