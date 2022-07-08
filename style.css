@@ -1,61 +1,63 @@
-@charset "UTF-8";
-html, body {
-    margin: 0;
-}
+/*@charset "UTF-8";*/
+/*html, body {*/
+/*    margin: 0;*/
+/*}*/
 
-#app {
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(39, 38, 38);
-    position: relative;
-    overflow: hidden;
-    z-index: -2;
-}
-#app:before {
-    content: "";
-    display: block;
-    width: 140px;
-    height: 300vh;
-    position: absolute;
-    top: 0;
-    left: 1200px;
-    background-color: rgb(65, 65, 65);
-    transform-origin: top right;
-    transform: rotate(30deg);
-    z-index: -1;
-}
-#app:after {
-    content: "";
-    display: block;
-    width: 100vw;
-    height: 300vh;
-    position: absolute;
-    top: 0;
-    left: 1200px;
-    background-color: rgb(128, 127, 127);
-    transform-origin: top left;
-    transform: rotate(30deg) translate(110px, -100vh);
-    z-index: -1;
-}
+/*#app {*/
+/*    width: 100vw;*/
+/*    height: 100vh;*/
+/*    background-color: rgb(39, 38, 38);*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+/*    z-index: -2;*/
+/*}*/
+/*#app:before {*/
+/*    content: "";*/
+/*    display: block;*/
+/*    width: 140px;*/
+/*    height: 300vh;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 1200px;*/
+/*    background-color: rgb(65, 65, 65);*/
+/*    transform-origin: top right;*/
+/*    transform: rotate(30deg);*/
+/*    z-index: -1;*/
+/*}*/
+/*#app:after {*/
+/*    content: "";*/
+/*    display: block;*/
+/*    width: 100vw;*/
+/*    height: 300vh;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 1200px;*/
+/*    background-color: rgb(128, 127, 127);*/
+/*    transform-origin: top left;*/
+/*    transform: rotate(30deg) translate(110px, -100vh);*/
+/*    z-index: -1;*/
+/*}*/
 
-.view {
-    margin: 54px;
-    color: white;
-    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
-    font-weight: lighter;
-    font-size: 23px;
-    z-index: 1;
-}
+/*.view {*/
+/*    margin: 54px;*/
+/*    color: white;*/
+/*    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;*/
+/*    font-weight: lighter;*/
+/*    font-size: 23px;*/
+/*    z-index: 1;*/
+/*}*/
 
-h1 {
-    color: white;
-    font-size: 54px;
-}
+/*h1 {*/
+/*    color: white;*/
+/*    font-size: 54px;*/
+/*}*/
 
-h2 {
-    color: white;
-    font-size: 48px;
-}
+/*h2 {*/
+/*    color: white;*/
+/*    font-size: 48px;*/
+/*}*/
 
-
-/*# sourceMappingURL=style.css.map */
+/*.link {*/
+/*    z-index: 100;*/
+/*}*/
+/*!*# sourceMappingURL=style.css.map *!*/
